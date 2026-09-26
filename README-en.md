@@ -17,7 +17,7 @@ The commands below create a `cpcs202` folder on your Desktop.
 Open PowerShell and run:
 
 ```powershell
-Set-Location ([Environment]::GetFolderPath('Desktop'))
+cd ~/Desktop
 git clone https://github.com/fcit-tutor/cpcs202.git
 ```
 
@@ -52,7 +52,7 @@ To get the latest materials, open your terminal and run the commands for your op
 ### Windows (PowerShell)
 
 ```powershell
-Set-Location (Join-Path ([Environment]::GetFolderPath('Desktop')) 'cpcs202')
+cd ~/Desktop/cpcs202
 git pull --ff-only
 ```
 

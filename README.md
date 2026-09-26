@@ -20,7 +20,7 @@
 افتح PowerShell ونفّذ الأوامر التالية:
 
 ```
-Set-Location (\[Environment\]::GetFolderPath('Desktop'))  
+cd ~/Desktop
 git clone https://github.com/fcit-tutor/cpcs202.git
 ```
 
@@ -64,7 +64,7 @@ git clone https://github.com/fcit-tutor/cpcs202.git
 ### Windows (PowerShell)
 
 ```
-Set-Location (Join-Path (\[Environment\]::GetFolderPath('Desktop')) 'cpcs202')  
+cd ~/Desktop/cpcs202
 git pull --ff-only
 ```
 
