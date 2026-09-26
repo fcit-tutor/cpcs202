@@ -1,0 +1,21 @@
+# Compiled Java files and crash logs
+*.class
+hs_err_pid*
+replay_pid*
+
+# Backups, autosaves, and lock files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.\#*
+
+# Vim swap files
+*.swp
+*.swo
+
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
